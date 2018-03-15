@@ -13,7 +13,7 @@
     <TextBox x:Name="uxName" TextChanged="uxName_TextChanged"></TextBox>
     <TextBlock>Enter Password:</TextBlock>
     <TextBox x:Name="uxPassword" TextChanged="uxPassword_TextChanged"></TextBox>
-    <Button x:Name="uxSubmit" IsEnabled="False">Submit</Button>
+    <Button x:Name="uxSubmit" IsEnabled="False" Click="uxSubmit_Click">Submit</Button>
 
   </StackPanel>
 </Window>
